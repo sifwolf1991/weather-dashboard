@@ -25,7 +25,7 @@ Features:
 -	Picture icons represent current temperature and reflect the search result
 -	Your search history is saved and listed as links to retrieve previously searched for forecasts
 -	You can delete your search history using the provided button
--	Note: !!! app is currently not receiving correct lat/lon data !!!
+-	Note: *** app is currently not receiving correct lat/lon data ***
 
 ## 2. Badges
 
