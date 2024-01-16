@@ -62,7 +62,7 @@ https://github.com/sifwolf1991
 
 ## 5. Usage
 
--	You can retrieve weather forecasts through a fetch request to the OpenWeatherMap ‘One call’ API which gives you daily forecast data.
+-	You can retrieve weather forecasts through a fetch request to the OpenWeatherMap API which gives you daily forecast data.
 -	The simple form design interface allows you to make a search of cities around the world and receive data on daily temperature, humidity, and wind speed readings.
 -	You can return to the page to view saved search information, or delete your search history using the simple colour coded button layout.
 -	The button has a ‘3D’ graphic design that has the effect of appearing to be pressed down, which enhances the interactivity.
