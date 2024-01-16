@@ -16,7 +16,7 @@
 
 ## 1. Description
 
-This app creates a weather display dashboard to provide you with 5 day forecast reading.
+This app creates a weather display dashboard to provide you with a 5 day forecast reading.
 
 Features:
 
