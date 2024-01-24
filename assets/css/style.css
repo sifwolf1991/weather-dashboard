@@ -1,0 +1,168 @@
+/* Import Google font - Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --blue: #0d5ec7;
+    --light-blue: #63f8f1; 
+    --volt:  #c8ff00;
+    --dark-blue: #072752;
+    --yellow: #e5dc15;
+    --dark-yellow: #c2bb11;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', 'Montserrat', sans-serif;
+  }
+
+  h1 {
+    background: var(--blue);
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    color:  white;
+  }
+/*----------------------------Search box and button and effects----------------------------------*/
+
+.title {
+
+    color: #005f92;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#current-forecast-col {
+
+  color: rgb(0, 0, 0);
+    background: var(--light-blue);
+    border-radius: 6px;
+    padding: 20px 70px 20px 70px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection {
+  border: 0px;
+
+}
+.collection.with-header .collection-header {
+    background-color: var(--light-blue);  
+    border-radius: 1px; 
+    border: 0px;
+}
+
+.collection .collection-item {
+    background-color: var(--light-blue); 
+    border-radius: 1px; 
+    border: 0px;;
+  
+}
+
+.collection a.collection-item {
+    color: white;
+    background-color:  rgb(107, 107, 109);
+    border: 1px solid  black;
+    border-radius: 2px; 
+    
+}
+
+.a.collection-item:hover {
+  background: var(--yellow);
+  color: #ffffff;
+  border: 0px;
+}
+
+.card-panel {
+    border-radius: 4px;
+    background-color: var(--blue);
+}
+
+#search-input {
+border-radius: 5px;
+border: 1px solid var(--blue);
+background-color: rgb(240, 255, 198);
+}
+
+#search-input:focus {
+
+border: 3px solid var(--light-blue); 
+border-style: dashed;
+}
+
+.search-bar button {
+    width: 60%;
+    color: var(--volt);
+    background: var(--blue);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    padding: 0.5rem;
+    border: 2px solid var(--yellow);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.6em var(--dark-yellow), 0 0.9em rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 0;
+    transition: all 300ms ease-in-out;
+}
+
+/*search bar turns lighter blue when mouse hovers*/
+  .search-bar .search-btn:hover {
+    background: var(--yellow);
+    color: #0e79b2;
+}
+
+  .search-bar .search-btn:active {
+    background: var(--light-blue); 
+  top: 0.4em;
+  box-shadow: 0 0.2em var(--dark-yellow), 0 0.5em rgba(0, 0, 0, 0.4);
+}
+/*delete history button*/
+      .btn-secondary {
+    width: 60%;
+    color:  var(--volt);
+    background: rgb(219, 74, 74);
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    padding: 0.5rem;
+    border: 2px solid var(--yellow);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.6em var(--dark-yellow), 0 0.9em rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 0;
+    transition: all 300ms ease-in-out;
+}
+
+/*search bar turns lighter blue when mouse hovers*/
+    .btn-secondary:hover {
+            background: rgb(255, 108, 108);
+            color: #ffffff;
+}
+        
+      .btn-secondary:active {
+            background: rgb(251, 255, 0);
+          top: 0.4em;
+          box-shadow: 0 0.2em var(--dark-yellow), 0 0.5em rgba(0, 0, 0, 0.4);
+}
+
+/*Controlling text color in 4 day forecast cards*/
+        #otherdays {
+            color: rgb(255, 255, 255);
+            padding: 7.5px 10px;
+            border-radius: 5px;
+}
+/*--------------------------------------------------------------*/
+
+
+
